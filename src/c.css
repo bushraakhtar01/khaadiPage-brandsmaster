@@ -1,0 +1,35 @@
+.h3-responsive{
+    color: white;
+    font-size: 20px;
+    
+}
+.revitalizepara{
+    margin-top: -20px;
+}
+@media(max-width:700px){
+  .h3-responsive{
+      margin: -2px auto -2px auto;
+      font-size: 15px;
+      
+  }
+  .revitalizepara{
+      font-size: 12px;
+      margin-top: unset;
+  }
+  .d-block{
+      height: 29vh;;
+  }
+
+  
+  .carousel-caption{
+      margin: -10px auto -10px auto;
+  }
+
+}
+
+@media all and (max-width: 1000px) and (orientation: landscape){
+
+    .d-block{
+        height: 70vh;
+    }
+}

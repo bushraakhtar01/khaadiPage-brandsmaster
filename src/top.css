@@ -1,0 +1,45 @@
+h2,p{
+    text-align: center;
+  
+}
+h2{
+    padding-top: 4%;
+}
+p{
+    padding: 1%;
+    font-size: 19px;
+}
+
+.col-md-3{
+    margin:0;
+    padding: 0;
+}
+
+@media(max-width:480px){
+    h2{
+        font-size: 19px;
+        padding-top: 10%;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    .card{
+        padding: 2px;
+        border-color: white;
+    }
+  
+}
+
+@media all and (max-width: 1000px) and (orientation: landscape){
+
+    .card{
+        padding: 1%;
+        width: 99%;
+        border-color: white;
+     
+        margin: 0px auto 0px auto;
+
+        
+    }
+}
